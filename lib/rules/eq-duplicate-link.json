@@ -1,0 +1,13 @@
+{
+  "id": "duplicate-link",
+  "impact": "minor",
+  "selector": "a",
+  "tags": ["cat.parsing", "best-practice", "equisolve"],
+  "metadata": {
+    "description": "Ensures every anchor href value is unique",
+    "help": "href attribute value should be unique"
+  },
+  "all": ["duplicate-link"],
+  "any": [],
+  "none": []
+}

@@ -84,6 +84,11 @@ function buildRules(grunt, options, commons, callback) {
         intro:
           'Deprecated rules are disabled by default and will be removed in the next major release.',
         rules: []
+      },
+      equisolve: {
+        title: 'Equisolve Rules',
+        intro: 'Custom rules for Equisolve internal usage',
+        rules: []
       }
     };
 

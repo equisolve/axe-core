@@ -1,0 +1,12 @@
+{
+  "id": "duplicate-link",
+  "evaluate": "duplicate-link-evaluate",
+  "after": "duplicate-link-after",
+  "metadata": {
+    "impact": "minor",
+    "messages": {
+      "pass": "Document has no links that share the same href attribute",
+      "fail": "Document has multiple link elements with the same href attribute: ${data}"
+    }
+  }
+}

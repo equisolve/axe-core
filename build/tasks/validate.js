@@ -307,7 +307,13 @@ function validateRule({ tags, metadata }) {
   return issues;
 }
 
-const miscTags = ['ACT', 'experimental', 'review-item', 'deprecated'];
+const miscTags = [
+  'ACT',
+  'experimental',
+  'review-item',
+  'deprecated',
+  'equisolve'
+];
 
 const categories = [
   'aria',
